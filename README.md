@@ -1,42 +1,42 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # jokeapp
 click a button to generate a joke {made with React + TS + Tailwind + Vite}
 =======
 # React + TypeScript + Vite
+=======
+# Joke Generator App
+>>>>>>> 125c060 (feat: Implement joke generator app using React, TypeScript, Tailwind CSS, and Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application that generates random jokes at the click of a button. This project is built using React, TypeScript, Tailwind CSS, and Vite.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Generate random jokes with a simple button click.
+- Responsive design using Tailwind CSS.
+- Fast development environment provided by Vite.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **Vite**: A build tool that provides a fast development server and optimized production builds.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Installation
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+To get started with this project, clone the repository and install the dependencies:
 
+<<<<<<< HEAD
 export default tseslint.config({
   // Set the react version
   settings: { react: { version: '18.3' } },
@@ -53,3 +53,21 @@ export default tseslint.config({
 })
 ```
 >>>>>>> e76264d (feat: Implement joke generator app using React, TypeScript, Tailwind CSS, and Vite)
+=======
+```bash
+git clone https://github.com/Popstizzy03/jokeapp.git
+cd joke-generator-app
+npm install
+
+Usage
+After installing the dependencies, you can run the app in development mode:
+
+bash
+
+Copy
+npm run dev
+Open your browser and go to http://localhost:5173 to see the app in action. Click the button to generate a random joke!
+
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+>>>>>>> 125c060 (feat: Implement joke generator app using React, TypeScript, Tailwind CSS, and Vite)
