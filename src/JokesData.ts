@@ -41,6 +41,42 @@ const jokesData = [
     punchline: "Because it was never right.",
     category: "Math",
   },
+ {
+    id: 8,
+    question: "Why do programmers prefer dark mode?",
+    punchline: "Because light attracts bugs.",
+    category: "Tech",
+  },
+  {
+    id: 9,
+    question: "How do you fix a broken website?",
+    punchline: "With a CSS-tape.",
+    category: "Tech",
+  },
+  {
+    id: 10,
+    question: "Why did the biologist break up with the physicist?",
+    punchline: "There was no chemistry.",
+    category: "Science",
+  },
+  {
+    id: 11,
+    punchline: "Do these genes make me look fat?",
+    question: "What did the DNA say to the other DNA?",
+    category: "Science",
+  },
+  {
+    id: 12,
+    question: "Why was the math book sad?",
+    punchline: "It had too many problems.",
+    category: "Math",
+  },
+  {
+    id: 13,
+    question: "What's a math teacher's favorite sum?",
+    punchline: "Summer.",
+    category: "Math",
+  },
 ];
 
 export default jokesData;
