@@ -1,12 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # jokeapp
 click a button to generate a joke {made with React + TS + Tailwind + Vite}
 =======
 # React + TypeScript + Vite
 =======
 # Joke Generator App
->>>>>>> 125c060 (feat: Implement joke generator app using React, TypeScript, Tailwind CSS, and Vite)
+ (feat: Implement joke generator app using React, TypeScript, Tailwind CSS, and Vite)
 
 A simple web application that generates random jokes at the click of a button. This project is built using React, TypeScript, Tailwind CSS, and Vite.
 
@@ -36,7 +34,6 @@ A simple web application that generates random jokes at the click of a button. T
 
 To get started with this project, clone the repository and install the dependencies:
 
-<<<<<<< HEAD
 export default tseslint.config({
   // Set the react version
   settings: { react: { version: '18.3' } },
