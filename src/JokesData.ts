@@ -462,7 +462,14 @@ const jokesData: Joke[] = [
     punchline: "They get distracted by analyzing the comedic structure halfway through...",
     category: "MBTI",
     tags: ["INTP", "distracted", "analysis"]
-  }
+  },
+  {
+    id: 66,
+    question: "What do you call enemy light particles?",
+    punchline: "Foetons",
+    category: "Physics",
+    tags: ["Deadpan"]
+  },
 ];
 
 export default jokesData;
